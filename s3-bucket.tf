@@ -3,7 +3,7 @@ module "s3-bucket" {
   version = "1.16.0"
   # insert required variables here
 
-  bucket = "my-s3-bucket"
+  bucket = "my-s3-bucket-zaga"
   acl    = "private"
 
   versioning = {
